@@ -155,7 +155,11 @@ async function askShortAnswerQuestion(channel, questionObj) {
   });
 
   collector.on('end', collected => {
-    console.log(`Collected ${collected.size} answers.`);
+    if (collected.size === 0) {
+        channel.send('Time is up! No one answered the question.');
+    } else {
+        console.log(`Collected ${collected.size} reactions.`);
+    } 
   });
 }
 
