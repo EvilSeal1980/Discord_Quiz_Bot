@@ -1,0 +1,35 @@
+[
+    {
+      "type": "multipleChoice",
+      "question": "What is the capital of France?",
+      "choices": ["Berlin", "Madrid", "Paris", "Lisbon"],
+      "correctAnswer": 3
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which planet is known as the Red Planet?",
+      "choices": ["Earth", "Mars", "Jupiter", "Venus"],
+      "correctAnswer": 2
+    },
+    {
+      "type": "trueFalse",
+      "question": "The Earth is flat.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Water boils at 100 degrees Celsius.",
+      "correctAnswer": true
+    },
+    {
+      "type": "shortAnswer",
+      "question": "What is the largest mammal in the world?",
+      "acceptableAnswers": ["blue whale", "whale", "baleen whale"]
+    },
+    {
+      "type": "shortAnswer",
+      "question": "In which year did the Titanic sink?",
+      "acceptableAnswers": ["1912"]
+    }
+  ]
+  
